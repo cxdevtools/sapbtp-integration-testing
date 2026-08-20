@@ -1,0 +1,28 @@
+# Gradle
+.gradle/
+**/build/
+
+# Java bytecode and build output
+*.class
+out/
+
+# IDE metadata
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/
+
+# JVM crash logs
+hs_err_pid*
+replay_pid*
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and OS metadata
+*.log
+.DS_Store
